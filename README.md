@@ -1,1 +1,0 @@
-# amongus Omer is pussy 
