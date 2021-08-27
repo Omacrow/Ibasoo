@@ -47,3 +47,97 @@
 .save-btn a{
 	cursor: pointer;
 }
+.main-bann{
+	margin-top: 40px;
+    max-width: 1248px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.middle-bann{
+     width: 469px;
+    transform: translate(352px, -248px);
+}
+.left-bann{
+	background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: block;
+    flex-grow: 1;
+}
+.left-txt{
+	    width: 350px;
+	    padding: 25px;
+
+}
+.left-txt h4{
+	margin-top: 5px;
+	font-size: 23px !important; 
+
+}
+.save-btn2{
+	margin-top: 15px;
+}
+.save-btn2 a{
+    border: 1px solid #333;
+    box-shadow: #333 0 0px 0px 0px inset;
+    display: inline-block;
+    padding: 10px 17px;
+    text-align: center;
+    transition: all 500ms cubic-bezier(0.39,0.5,0.15,1.36);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0) 0px 0px 0px 0px inset;
+}
+.main-bann2{
+	margin-top: 40px;
+    max-width: 1248px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.middle-bann2{
+        width: 673px;
+    transform: translate(352px, -207px);
+    height: 246px;
+}
+.middle-bann2 img{
+	    height: 245px;
+}
+.left-bann2{
+	background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: block;
+    flex-grow: 1;
+}
+.left-txt2{
+	    width: 350px;
+	    padding: 25px;
+
+}
+.left-txt2 h4{
+	margin-top: 5px;
+	font-size: 23px !important; 
+
+}
+.save-btn3{
+	margin-top: 15px;
+}
+.save-btn3 a{
+    border: 1px solid #333;
+    box-shadow: #333 0 0px 0px 0px inset;
+    display: inline-block;
+    padding: 10px 17px;
+    text-align: center;
+    transition: all 500ms cubic-bezier(0.39,0.5,0.15,1.36);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0) 0px 0px 0px 0px inset;
+}
