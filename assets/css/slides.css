@@ -49,7 +49,7 @@
 }
 .main-bann{
 	margin-top: 40px;
-    max-width: 1248px;
+    max-width: 1448px;
     align-items: stretch;
     display: flex;
     flex-direction: row;
@@ -69,7 +69,7 @@
     flex-grow: 1;
 }
 .left-txt{
-	    width: 350px;
+	    
 	    padding: 25px;
 
 }
@@ -94,7 +94,7 @@
 }
 .main-bann2{
 	margin-top: 40px;
-    max-width: 1248px;
+    max-width: 1448px;
     align-items: stretch;
     display: flex;
     flex-direction: row;
@@ -102,6 +102,8 @@
     height: 250px;
     margin-bottom: 40px;
 }
+
+
 .middle-bann2{
         width: 673px;
     transform: translate(352px, -207px);
