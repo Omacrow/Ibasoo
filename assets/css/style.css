@@ -10,7 +10,7 @@ html,body{
 }
 body{
     font:normal 300 1.4rem/1.86 "Poppins",sans-serif;
-    color:#666;
+    color:#000;
     background-color:#fff;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
@@ -468,10 +468,9 @@ blockquote.text-white cite span{
 }
 .header-top{
     font-weight:300;
-    font-size:1.3rem;
-    line-height:1.5;
+    line-height:0.5;
     letter-spacing:0;
-    color:#777;
+    color:#000;
     margin-bottom:.1rem
 }
 .header-top a{
@@ -1145,7 +1144,7 @@ blockquote.text-white cite span{
     margin-left:auto
 }
 .header-intro-clearance .header-bottom .menu>li>a{
-    font-size:1.4rem;
+    font-size:1.2rem;
     letter-spacing:-.01em;
     text-transform:none
 }
@@ -1186,7 +1185,7 @@ blockquote.text-white cite span{
     background-color:#ccc;
     transform:translateY(-50%)
 }
-.header-intro-clearance .header-bottom .container::after{
+/* .header-intro-clearance .header-bottom .container::after{
     position:absolute;
     content:'';
     right:28rem;
@@ -1195,7 +1194,7 @@ blockquote.text-white cite span{
     top:50%;
     background-color:#ccc;
     transform:translateY(-50%)
-}
+} */
 .header-intro-clearance .header-middle .header-right p{
     font-size:1.1rem
 }
@@ -1676,9 +1675,9 @@ blockquote.text-white cite span{
     line-height:1.05;
     font-size:3.1rem
 }
-.menu li:hover>a,.menu li.show>a,.menu li.active>a{
+/* .menu li:hover>a,.menu li.show>a,.menu li.active>a{
     color:#c96
-}
+} */
 .demo-list{
     display:flex;
     align-items:center;
@@ -1763,20 +1762,20 @@ blockquote.text-white cite span{
 }
 .header-bottom .menu>li>a:before{
     content:'';
-    display:block;
+    /* display:block;
     position:absolute;
-    left:0;
+    left:2;
     bottom:0;
     width:100%;
-    height:.1rem;
-    background-color:#c96;
+    height:0.1rem;
+    background-color:none;
     transform-origin:right center;
-    transform:scale(0, 1);
-    transition:transform .3s ease
+    transform:scale(5, 0, 10);
+    transition:transform .5s ease */
 }
 .header-bottom .menu li:hover>a:before,.header-bottom .menu li.show>a:before,.header-bottom .menu li.active>a:before{
     transform-origin:left center;
-    transform:scale(1, 1)
+    /* transform:scale(1, 1) */
 }
 .header-bottom .menu.sf-arrows>li>.sf-with-ul::after{
     right:1rem
@@ -2485,12 +2484,13 @@ p{
     background-color:transparent
 }
 .header-2 .header-search .search-wrapper-wide{
-    width:unset
+    width:100%;
 }
 .header-2 .header-top{
     font-weight:300;
-    font-size:1.4rem;
-    background-color:#f8f8f8
+    font-size:1.3rem;
+    background-color:#f8f8f8;
+    box-shadow: 0 5px 7px -6px rgb(83, 83, 83)
 }
 .header-2 .header-top .header-left{
     display:flex;
@@ -2516,7 +2516,9 @@ p{
     margin-left:4rem
 }
 .header-2 .header-middle{
-    border-bottom:none
+    border-bottom:none;
+    margin-bottom: 0.2rem;
+    margin-top: -14px
 }
 .header-2 .header-middle .container::after{
     position:absolute;
@@ -5275,7 +5277,7 @@ p{
 }
 .btn-wrap{
     display:inline-block;
-    margin-bottom:2rem
+    
 }
 .btn-wrap>span{
     display:block;
