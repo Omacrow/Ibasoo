@@ -631,7 +631,8 @@ blockquote.text-white cite span{
     margin-left:2.5rem
 }
 .header-middle{
-    border-bottom:.1rem solid #f4f4f4
+    border-bottom:.1rem solid #f4f4f4;
+    height: 103px;
 }
 .header-middle .menu>li>a{
     letter-spacing:.01em
@@ -2536,7 +2537,8 @@ p{
     color:#333
 }
 .header-2 .sticky-header{
-    background-color:#fff
+    background-color:#fff;
+    margin-bottom: -6px;
 }
 .header-2 .mobile-menu-toggler{
     margin-left:0
@@ -7130,7 +7132,9 @@ p{
 }
 @media screen and (max-width: 991px){
     .sticky-wrapper{
-        z-index:1
+        z-index:1;
+        
+        
     }
 }
 .banners-group{
