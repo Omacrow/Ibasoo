@@ -1,4 +1,5 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
 html{
     font-size:62.5%;
     -webkit-text-size-adjust:100%;
@@ -59,6 +60,45 @@ img{
     display:block;
     max-width:100%;
     height:auto
+}
+.container-banner {
+    width:100%;
+    height:140px;
+    background-color:#382aef;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#st-box {
+    float:left;
+    width:180px;
+    height:100px;
+    background-color:white;
+    
+}
+#nd-box {
+    float:left;
+    width:300px;
+    height:85px;
+    color: white;
+    top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size:40px;
+    position: relative;
+}
+#nd-box p{
+  float: left;
+  color: white;
+  font-size:23px;
+  font-family: 'Poppins', sans-serif;
+
+}
+#rd-box {
+    float:right;
+    margin-right: 20px;
+    position: relative;
+    top: 30px;
+    
 }
 .bg-light{
     background-color:#f8f8f8 !important
@@ -899,6 +939,82 @@ blockquote.text-white cite span{
     text-align:center;
     z-index:11
 }
+
+
+.imbanner {
+    position: relative;
+    border: 1px solid #ccc
+}
+.imbanner-last{
+    position: relative;
+    border: 1px solid #ccc;
+    
+}
+  
+  .imbanner img {
+    /* Make image responsive */
+    display: block;
+    width: 100%;
+    max-height: 300px;
+  }
+  .imbanner-last img {
+    /* Make image responsive */
+    display: block;
+    width: 100%;
+    max-height: 430px;
+  }
+  .imbanner>.captionss {
+    position: absolute;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 2%;;
+    
+  }
+  .imbanner-last>.captionss-last {
+    position: absolute;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background:#0e4a6c;
+    padding: 2%;;
+    color:white;
+    
+  }
+  
+  .imbanner>.captionss>h1,
+  .imbanner>.captionss>h2 {
+    text-align: center;
+  }
+  .imbanner-last>.captionss-last>h1,
+  .imbanner-last>.captionss-last>h2 {
+    
+    color:white;
+  }
+  
+  .imbanner>.captionss>h1 {
+    font-size: 5vw;
+   
+  }
+  
+  .imbanner>.captionss>h2 {
+    font-size: 4vw;
+    
+  }
+  .imbanner-last>.captionss-last>h1 {
+    font-size: 5vw;
+    color : white
+  }
+  
+  .imbanner-last>.captionss-last>h2 {
+    font-size: 2vw;
+    color:white;
+  }
+  .imbanner-last>.captionss-last>h3 {
+    font-size: 1vw;
+    color:white;
+  }
 .search-toggle:hover,.search-toggle:focus,.search-toggle.active{
     color:#c96;
     outline:none !important
