@@ -109,7 +109,7 @@
     cursor: pointer;
 }
 .save-btn2 a{
-    border: 1px solid #333;
+    border: 1px solid #fff;
     box-shadow: #333 0 0px 0px 0px inset;
     display: inline-block;
     padding: 10px 17px;}
@@ -302,4 +302,18 @@
     color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
     box-shadow: rgb(0 0 0) 0px 0px 0px 0px inset;
+}
+.img-main-container{
+	width: 100%;
+	height: 100%;
+
+}
+.img-main{
+	float: right;
+	width: 25%;
+	height: 100%;
+}
+.img-main-size{
+	height: 100%;
+	width: 100%;
 }
