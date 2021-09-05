@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 
-.h1a {padding-top: 10px; text-align: center; font-size: 2.5em;}
+.h1a {padding-top: 45px; text-align: center; font-size: 2.5em;}
 
 .lia a {text-decoration : none; color : #2d2f31;}
 
@@ -11,14 +11,14 @@
 .nava {
   width : 100%; 
   background: #F7B100;
-  position: fixed;
-  top: 0;
-  right: 0;
+  
   
 }
+  
+
 
 .spana {
-  padding :5px;
+  padding :2px;
   background : #F7B100; 
   color : #111820;
   font-size : 1.2em;
@@ -39,7 +39,7 @@
 .slidea {
   clear:both;
   width:100%;
-  height:0px;
+  height:5px;
   background-color:#F7B100 ;
   overflow: hidden;
   text-align: center;
