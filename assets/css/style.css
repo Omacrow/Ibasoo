@@ -1784,6 +1784,7 @@ blockquote.text-white cite span{
     margin:0
 }
 .menu .megamenu li a{
+    color:black;
     padding-right:0;
     padding-left:0
 }
