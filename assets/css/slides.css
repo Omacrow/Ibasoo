@@ -400,3 +400,20 @@
 .owl-simple .owl-nav .owl-next {
     right: -30px;
 }
+
+
+@media only screen and (max-width:991px){
+        
+        .navbar li {
+        margin-left : 0.5rem;
+        margin-right : 0.5rem;
+    } 
+
+    .navbar .li-img{
+    	display: none;
+    }
+
+
+
+ 
+ }
